@@ -1,0 +1,49 @@
+
+                               MANUAL TESTING PROJECT
+                         ---------------------------------
+
+
+PROCEDURE FOR TESTING:
+ 
+1.Project Introduction
+2.Review & Analyze the Requirment/Functionality
+3.Prepare Test Plan
+4.Create Test Scenario
+5.Create Test Cases-review,Requirement Traceability Matrix 
+6.Test Environment setup
+7.Build Deployment
+8.Test Execution 
+9.Bug Reporting & Tracking
+10.Sanity Testing,Re-Testing,Regression Testing
+11.Test Phase Sign off
+
+PROJECT NAME:E-commerce Application Functionality Testing
+
+E-commerce Application Name: OpenCart
+
+PROJECT SOURCE:https://demo.opencart.com/ 
+
+
+
+
+
+Test environment setup:
+1.XAMPP software download and install
+
+Build Deployment
+1.Opencart software install 
+2.After installing the XAMPP software,extract opencart-4.o.2.2.zip file to folder opencart-4.0.2.2 .
+3.Copy folder opencart-4.0.2.2 to c:\xampp\htdocs
+4.rename folder c:\xampp\htdocs\opencart to c:\xampp\htdocs\opencart
+5.rename following files
+    a)c:\xampp\htdocs\opencart\upload \config-dist.php to config.php
+    b)c:\xampp\htdocs\opencart\upload\admin\config-dist.php to config.php
+6.Connect database
+    a)open url "http://localhost/phpmyadmin/"
+    b)Create new database "openshop"
+7.Establish connection between opencart application and database
+    a)Open site url:"http://localhost/opencart/"
+8.For "Don't forget to delete your install folder" delete 'install' folder at location"c:\xampp\htdocs\opencart\upload"
+
+ 
+                         
